@@ -1,0 +1,121 @@
+id,restaurante,nota,texto
+1,Sushi Maré,5,"Amei, nota 10"
+2,Açaí do Porto,1,Pedido atrasou mais de uma hora
+3,Sushi Maré,4,"Adorei o sabor, perfeito"
+4,Pizzaria do Zé,2,"Embalagem vazou, tudo derramado"
+5,Pizzaria do Zé,3,"Pedido correto, preço um pouco alto"
+6,Cantina Bela,1,Pedido atrasou mais de uma hora
+7,Burger Norte,3,"Pedido correto, preço um pouco alto"
+8,Pizzaria do Zé,4,"Amei, nota 10"
+9,Pizzaria do Zé,5,"Excelente, chegou quente e rápido"
+10,Marmitaria Casa,5,"Muito bom, entrega pontual"
+11,Cantina Bela,2,Pedido atrasou mais de uma hora
+12,Marmitaria Casa,3,"Pedido correto, preço um pouco alto"
+13,Burger Norte,1,A comida chegou fria
+14,Sushi Maré,2,Pedido atrasou mais de uma hora
+15,Marmitaria Casa,1,A comida chegou fria
+16,Cantina Bela,4,"Amei, nota 10"
+17,Sushi Maré,4,"Amei, nota 10"
+18,Sushi Maré,3,"Chegou no prazo, comida normal"
+19,Açaí do Porto,5,"Excelente, chegou quente e rápido"
+20,Marmitaria Casa,3,"Tudo ok, nada de especial"
+21,Sushi Maré,5,"Muito bom, entrega pontual"
+22,Marmitaria Casa,5,"Excelente, chegou quente e rápido"
+23,Marmitaria Casa,4,"Muito bom, entrega pontual"
+24,Burger Norte,5,"Amei, nota 10"
+25,Pizzaria do Zé,5,"Excelente, chegou quente e rápido"
+26,Marmitaria Casa,4,"Muito bom, entrega pontual"
+27,Sushi Maré,4,"Amei, nota 10"
+28,Marmitaria Casa,5,"Excelente, chegou quente e rápido"
+29,Pizzaria do Zé,5,"Amei, nota 10"
+30,Açaí do Porto,4,"Excelente, chegou quente e rápido"
+31,Açaí do Porto,5,"Amei, nota 10"
+32,Sushi Maré,5,"Muito bom, entrega pontual"
+33,Pizzaria do Zé,5,"Muito bom, entrega pontual"
+34,Burger Norte,3,"Tudo ok, nada de especial"
+35,Pizzaria do Zé,3,"Tudo ok, nada de especial"
+36,Burger Norte,3,"Tudo ok, nada de especial"
+37,Cantina Bela,5,"Amei, nota 10"
+38,Pizzaria do Zé,2,"Embalagem vazou, tudo derramado"
+39,Marmitaria Casa,3,"Chegou no prazo, comida normal"
+40,Cantina Bela,5,"Muito bom, entrega pontual"
+41,Açaí do Porto,4,"Muito bom, entrega pontual"
+42,Açaí do Porto,5,"Adorei o sabor, perfeito"
+43,Burger Norte,1,Faltou um item no meu pedido
+44,Burger Norte,3,"Chegou no prazo, comida normal"
+45,Cantina Bela,5,"Adorei o sabor, perfeito"
+46,Sushi Maré,3,"Chegou no prazo, comida normal"
+47,Cantina Bela,4,"Muito bom, entrega pontual"
+48,Burger Norte,3,"Pedido correto, preço um pouco alto"
+49,Marmitaria Casa,4,"Excelente, chegou quente e rápido"
+50,Cantina Bela,5,"Amei, nota 10"
+51,Cantina Bela,4,"Excelente, chegou quente e rápido"
+52,Cantina Bela,4,"Excelente, chegou quente e rápido"
+53,Burger Norte,1,A comida chegou fria
+54,Cantina Bela,2,Fui cobrado duas vezes
+55,Marmitaria Casa,1,Demorou demais para chegar
+56,Marmitaria Casa,2,Pedido atrasou mais de uma hora
+57,Sushi Maré,4,"Excelente, chegou quente e rápido"
+58,Burger Norte,3,"Chegou no prazo, comida normal"
+59,Açaí do Porto,3,"Tudo ok, nada de especial"
+60,Marmitaria Casa,3,"Chegou no prazo, comida normal"
+61,Pizzaria do Zé,5,"Amei, nota 10"
+62,Cantina Bela,4,"Excelente, chegou quente e rápido"
+63,Burger Norte,1,Fui cobrado duas vezes
+64,Açaí do Porto,3,"Pedido correto, preço um pouco alto"
+65,Burger Norte,2,A comida chegou fria
+66,Marmitaria Casa,3,"Pedido correto, preço um pouco alto"
+67,Marmitaria Casa,5,"Muito bom, entrega pontual"
+68,Açaí do Porto,5,"Muito bom, entrega pontual"
+69,Marmitaria Casa,3,"Chegou no prazo, comida normal"
+70,Sushi Maré,5,"Muito bom, entrega pontual"
+71,Açaí do Porto,3,"Chegou no prazo, comida normal"
+72,Burger Norte,4,"Adorei o sabor, perfeito"
+73,Burger Norte,2,Fui cobrado duas vezes
+74,Açaí do Porto,1,Demorou demais para chegar
+75,Sushi Maré,4,"Adorei o sabor, perfeito"
+76,Açaí do Porto,4,"Muito bom, entrega pontual"
+77,Cantina Bela,5,"Muito bom, entrega pontual"
+78,Sushi Maré,2,Pedido atrasou mais de uma hora
+79,Burger Norte,2,Fui cobrado duas vezes
+80,Burger Norte,2,Demorou demais para chegar
+81,Cantina Bela,5,"Muito bom, entrega pontual"
+82,Açaí do Porto,2,Pedido atrasou mais de uma hora
+83,Cantina Bela,5,"Adorei o sabor, perfeito"
+84,Cantina Bela,5,"Amei, nota 10"
+85,Açaí do Porto,3,"Pedido correto, preço um pouco alto"
+86,Cantina Bela,4,"Excelente, chegou quente e rápido"
+87,Açaí do Porto,2,Faltou um item no meu pedido
+88,Pizzaria do Zé,2,Atendimento do restaurante foi ruim
+89,Açaí do Porto,2,Atendimento do restaurante foi ruim
+90,Açaí do Porto,5,"Adorei o sabor, perfeito"
+91,Marmitaria Casa,4,"Excelente, chegou quente e rápido"
+92,Pizzaria do Zé,5,"Excelente, chegou quente e rápido"
+93,Marmitaria Casa,5,"Adorei o sabor, perfeito"
+94,Cantina Bela,5,"Adorei o sabor, perfeito"
+95,Burger Norte,1,A comida chegou fria
+96,Sushi Maré,4,"Muito bom, entrega pontual"
+97,Sushi Maré,4,"Adorei o sabor, perfeito"
+98,Pizzaria do Zé,5,"Muito bom, entrega pontual"
+99,Cantina Bela,4,"Amei, nota 10"
+100,Marmitaria Casa,2,Faltou um item no meu pedido
+101,Marmitaria Casa,4,"Amei, nota 10"
+102,Burger Norte,3,"Chegou no prazo, comida normal"
+103,Burger Norte,1,Pedido atrasou mais de uma hora
+104,Marmitaria Casa,1,Atendimento do restaurante foi ruim
+105,Pizzaria do Zé,5,"Excelente, chegou quente e rápido"
+106,Burger Norte,1,Demorou demais para chegar
+107,Pizzaria do Zé,4,"Excelente, chegou quente e rápido"
+108,Pizzaria do Zé,4,"Adorei o sabor, perfeito"
+109,Açaí do Porto,3,"Pedido correto, preço um pouco alto"
+110,Marmitaria Casa,5,"Adorei o sabor, perfeito"
+111,Açaí do Porto,4,"Muito bom, entrega pontual"
+112,Marmitaria Casa,5,"Adorei o sabor, perfeito"
+113,Cantina Bela,2,Pedido atrasou mais de uma hora
+114,Cantina Bela,4,"Excelente, chegou quente e rápido"
+115,Açaí do Porto,3,"Chegou no prazo, comida normal"
+116,Burger Norte,3,"Chegou no prazo, comida normal"
+117,Burger Norte,5,"Muito bom, entrega pontual"
+118,Burger Norte,1,Faltou um item no meu pedido
+119,Cantina Bela,3,"Chegou no prazo, comida normal"
+120,Cantina Bela,5,"Adorei o sabor, perfeito"

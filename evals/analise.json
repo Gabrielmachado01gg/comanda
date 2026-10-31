@@ -1,0 +1,63 @@
+{
+ "total": 120,
+ "restaurantes": {
+  "Burger Norte": {
+   "avaliacoes": 23,
+   "nota_media": 2.35,
+   "pct_negativas": 52.2,
+   "temas": {
+    "qualidade": 4,
+    "cobranca": 3,
+    "atraso": 3,
+    "item_faltando": 2
+   }
+  },
+  "Açaí do Porto": {
+   "avaliacoes": 20,
+   "nota_media": 3.35,
+   "pct_negativas": 25.0,
+   "temas": {
+    "atraso": 3,
+    "item_faltando": 1,
+    "fora_de_escopo": 1
+   }
+  },
+  "Marmitaria Casa": {
+   "avaliacoes": 23,
+   "nota_media": 3.48,
+   "pct_negativas": 21.7,
+   "temas": {
+    "atraso": 2,
+    "qualidade": 1,
+    "item_faltando": 1,
+    "fora_de_escopo": 1
+   }
+  },
+  "Sushi Maré": {
+   "avaliacoes": 15,
+   "nota_media": 3.87,
+   "pct_negativas": 13.3,
+   "temas": {
+    "atraso": 2
+   }
+  },
+  "Pizzaria do Zé": {
+   "avaliacoes": 16,
+   "nota_media": 4.0,
+   "pct_negativas": 18.8,
+   "temas": {
+    "fora_de_escopo": 3
+   }
+  },
+  "Cantina Bela": {
+   "avaliacoes": 23,
+   "nota_media": 4.0,
+   "pct_negativas": 17.4,
+   "temas": {
+    "atraso": 3,
+    "cobranca": 1
+   }
+  }
+ },
+ "destaque": "Burger Norte tem a menor nota média (2.35); principal tema de reclamação: qualidade."
+}

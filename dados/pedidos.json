@@ -1,0 +1,10 @@
+{
+  "1001": {"status": "confirmado", "valor": 50.0, "atraso_min": 0, "restaurante": "Pizzaria do Zé", "itens": [{"nome": "Pizza Calabresa", "preco": 42.0}, {"nome": "Refrigerante", "preco": 8.0}]},
+  "1002": {"status": "entregue", "valor": 46.0, "atraso_min": 55, "restaurante": "Burger Norte", "itens": [{"nome": "Hambúrguer Duplo", "preco": 32.0}, {"nome": "Batata Frita", "preco": 14.0}]},
+  "1003": {"status": "preparando", "valor": 68.0, "atraso_min": 0, "restaurante": "Sushi Maré", "itens": [{"nome": "Sushi Combo", "preco": 68.0}]},
+  "1004": {"status": "entregue", "valor": 45.0, "atraso_min": 25, "restaurante": "Cantina Bela", "itens": [{"nome": "Lasanha", "preco": 36.0}, {"nome": "Suco", "preco": 9.0}]},
+  "1005": {"status": "entregue", "valor": 32.0, "atraso_min": 5, "restaurante": "Marmitaria Casa", "itens": [{"nome": "Marmita Executiva", "preco": 24.0}, {"nome": "Pudim", "preco": 8.0}]},
+  "1006": {"status": "a_caminho", "valor": 22.0, "atraso_min": 15, "restaurante": "Açaí do Porto", "itens": [{"nome": "Açaí 500ml", "preco": 22.0}]},
+  "1007": {"status": "entregue", "valor": 19.0, "atraso_min": 0, "restaurante": "Pastelaria Feira", "itens": [{"nome": "Pastel de Queijo", "preco": 12.0}, {"nome": "Caldo de Cana", "preco": 7.0}]},
+  "1008": {"status": "entregue", "valor": 48.0, "atraso_min": 70, "restaurante": "Sabor Mineiro", "itens": [{"nome": "Feijoada", "preco": 48.0}]}
+}

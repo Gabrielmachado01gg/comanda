@@ -1,0 +1,45 @@
+{
+  "name": "Comanda - triagem de tickets",
+  "nodes": [
+    {
+      "parameters": {"httpMethod": "POST", "path": "comanda-entrada", "responseMode": "lastNode", "options": {}},
+      "id": "a1", "name": "Webhook ticket", "type": "n8n-nodes-base.webhook", "typeVersion": 2, "position": [0, 0], "webhookId": "comanda-entrada"
+    },
+    {
+      "parameters": {
+        "method": "POST", "url": "http://localhost:8787/tickets", "sendHeaders": true,
+        "headerParameters": {"parameters": [{"name": "Authorization", "value": "Bearer SEU_TOKEN"}]},
+        "sendBody": true, "specifyBody": "json",
+        "jsonBody": "={{ { ticket: $json.body.ticket, pedido_id: $json.body.pedido_id } }}", "options": {"timeout": 60000}
+      },
+      "id": "a2", "name": "Chamar API Comanda", "type": "n8n-nodes-base.httpRequest", "typeVersion": 4.2, "position": [240, 0]
+    },
+    {
+      "parameters": {"conditions": {"string": [{"value1": "={{ $json.decisao }}", "value2": "escalar"}]}},
+      "id": "a3", "name": "Precisa de humano?", "type": "n8n-nodes-base.if", "typeVersion": 1, "position": [480, 0]
+    },
+    {
+      "parameters": {"assignments": {"assignments": [
+        {"id": "f1", "name": "canal", "value": "fila-humana", "type": "string"},
+        {"id": "f2", "name": "resumo", "value": "={{ $json.triagem.categoria }} | urgência {{ $json.triagem.urgencia }} | {{ $json.resposta }}", "type": "string"}
+      ]}, "options": {}},
+      "id": "a4", "name": "Montar aviso para atendente", "type": "n8n-nodes-base.set", "typeVersion": 3.4, "position": [720, -100]
+    },
+    {
+      "parameters": {"assignments": {"assignments": [
+        {"id": "f3", "name": "canal", "value": "resposta-automatica", "type": "string"},
+        {"id": "f4", "name": "resumo", "value": "={{ $json.resposta }}", "type": "string"}
+      ]}, "options": {}},
+      "id": "a5", "name": "Montar resposta ao cliente", "type": "n8n-nodes-base.set", "typeVersion": 3.4, "position": [720, 100]
+    }
+  ],
+  "connections": {
+    "Webhook ticket": {"main": [[{"node": "Chamar API Comanda", "type": "main", "index": 0}]]},
+    "Chamar API Comanda": {"main": [[{"node": "Precisa de humano?", "type": "main", "index": 0}]]},
+    "Precisa de humano?": {"main": [
+      [{"node": "Montar aviso para atendente", "type": "main", "index": 0}],
+      [{"node": "Montar resposta ao cliente", "type": "main", "index": 0}]
+    ]}
+  },
+  "settings": {"executionOrder": "v1"}
+}

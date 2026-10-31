@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Comanda</title>
+  <meta name="description" content="Veja passo a passo como os agentes da Comanda tratam um ticket de delivery.">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <header class="topo">
+    <div class="wrap topo__in">
+      <h1>Comanda <span>agentes de atendimento</span></h1>
+      <nav class="abas" role="tablist" aria-label="Seções">
+        <button role="tab" id="aba-atendimento" aria-selected="true" aria-controls="painel-atendimento">Atendimento</button>
+        <button role="tab" id="aba-avaliacao" aria-selected="false" aria-controls="painel-avaliacao" tabindex="-1">Avaliação</button>
+      </nav>
+      <p class="modo" id="modo" role="status">Verificando API...</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="painel-atendimento" role="tabpanel" aria-labelledby="aba-atendimento" class="grade">
+      <div class="col-entrada">
+        <h2>Visão do cliente</h2>
+        <div class="celular">
+          <div class="celular__topo"><span class="avatar" aria-hidden="true">C</span><div><b>Comanda</b><small>assistente de atendimento</small></div>
+            <button type="button" class="limpar" id="limpar">Limpar</button></div>
+          <div class="msgs" id="msgs" role="log" aria-live="polite" aria-label="Conversa com o assistente"></div>
+          <form id="form" class="celular__entrada" novalidate>
+            <label for="texto" class="so-leitor">Mensagem</label>
+            <input id="texto" maxlength="500" autocomplete="off" placeholder="Escreva sua mensagem">
+            <button class="enviar" type="submit" id="enviar" aria-label="Enviar">Enviar</button>
+          </form>
+        </div>
+        <div class="token" id="bloco-token" hidden>
+          <label for="token">Token da API</label>
+          <input id="token" type="password" autocomplete="off">
+        </div>
+        <p class="aviso" id="aviso-livre" hidden>Modo demonstração: texto livre precisa da API. Escolha um exemplo abaixo ou rode <code>python -m comanda serve</code>.</p>
+
+        <h2>Exemplos</h2>
+        <ul class="chips" id="exemplos"></ul>
+
+        <details class="pedidos">
+          <summary>Pedidos de teste</summary>
+          <div class="tabela-rolavel"><table id="tabela-pedidos"><thead><tr><th>Nº</th><th>Status</th><th>Atraso</th><th>Itens</th></tr></thead><tbody></tbody></table></div>
+        </details>
+      </div>
+
+      <div class="col-rastro" aria-live="polite">
+        <h2>Visão da empresa: o que os agentes fizeram</h2>
+        <p class="vazio" id="vazio">Envie um ticket ou escolha um exemplo para ver o rastro, passo a passo.</p>
+        <ol class="rastro" id="rastro"></ol>
+        <div class="resumo" id="resumo" hidden></div>
+      </div>
+    </section>
+
+    <section id="painel-avaliacao" role="tabpanel" aria-labelledby="aba-avaliacao" hidden>
+      <h2>Avaliação do dataset</h2>
+      <div id="avaliacao"></div>
+    </section>
+  </main>
+
+  <footer class="rodape wrap">
+    <p>Empresa, pedidos e clientes fictícios. No modo simulado as respostas vêm de regras determinísticas, não de um modelo de linguagem; ligue Ollama ou Anthropic para ver um modelo real.</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
